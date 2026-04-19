@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "321948635764",
+    "firebase_url": "https://chikitasapp-default-rtdb.firebaseio.com",
+    "project_id": "chikitasapp",
+    "storage_bucket": "chikitasapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321948635764:android:d0986b962441fda9bbb721",
+        "android_client_info": {
+          "package_name": "com.example.chikitasapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwxmOC7U5Oea9aX8w6pZ_hGAh0i3oLFMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321948635764:android:9253eaf28883c564bbb721",
+        "android_client_info": {
+          "package_name": "com.example.medicine_generator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwxmOC7U5Oea9aX8w6pZ_hGAh0i3oLFMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

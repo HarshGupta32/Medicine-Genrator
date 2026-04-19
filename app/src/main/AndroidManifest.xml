@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Medicine_generator"
+        tools:targetApi="31">
+        <activity
+            android:name=".predication"
+            android:exported="false" />
+        <activity
+            android:name=".Adddata"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".splashscreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Userdash"
+            android:exported="false" />
+        <activity
+            android:name=".ShowHospital"
+            android:exported="false" />
+        <activity
+            android:name=".Showmedicine"
+            android:exported="false" />
+        <activity
+            android:name=".Showdoctor"
+            android:exported="false" />
+        <activity
+            android:name=".Uploaddoctor"
+            android:exported="false" />
+        <activity
+            android:name=".medicinelocation"
+            android:exported="true" />
+        <activity
+            android:name=".doctorlocation"
+            android:exported="true" />
+        <activity
+            android:name=".hospitallocation"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".admindash"
+            android:exported="true" />
+        <activity
+            android:name=".Addmedicine"
+            android:exported="true" />
+        <activity
+            android:name=".Addhospital"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
